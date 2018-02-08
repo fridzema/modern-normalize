@@ -1,0 +1,39 @@
+/*! modern-base | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/**
+ * Break up words and URLs so they don't break your layout.
+ */
+
+html {
+	word-break: break-all;
+}
+
+/**
+ * Show link underline only on hover.
+ */
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/**
+ * Remove outline from `:focus` pseudo element.
+ * Note: Don't forget to apply some styling for the focus state of elements that support it.
+ */
+
+:focus {
+	outline: 0;
+}
+
+/**
+ * Remove the list style on navigation lists.
+ */
+
+nav ol,
+nav ul {
+	list-style: none;
+}
